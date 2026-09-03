@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    string a,b ;
+    cout<< "masukan nama anda" ;
+    cin>> a ;
+    cout<< "masukan pass anda" ;
+    cin>> b ;
+if (a=="udin"&& b=="1234567")
+{
+    cout<< "anda udin" ;
+}
+else if(a=="raden"&& b=="98765")
+{
+    cout<< "anda adalah raden" ;
+}
+
+else{
+     cout<< "anda bukan udin dan udin" ;
+}
+return 0 ;
+}
